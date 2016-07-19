@@ -1,11 +1,11 @@
-package com.stelmah.hibernate4.configuration;
+package com.stelmah.example.springsecurity4.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class Initializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class[]{RootConfiguration.class};
+        return new Class[]{WebConfig.class};
     }
 
     @Override

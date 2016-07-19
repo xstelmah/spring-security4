@@ -1,4 +1,4 @@
-package com.stelmah.hibernate4.dao.base;
+package com.stelmah.example.springsecurity4.dao.base;
 
 import java.io.Serializable;
 import java.util.List;
